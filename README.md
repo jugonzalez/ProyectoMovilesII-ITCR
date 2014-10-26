@@ -23,8 +23,8 @@ Register in the datastore
 
 ###Methods
 
-| Method | Request URI                              		| Description                              |
-|:-------|:-------------------------------------------------|:-----------------------------------------|
-| GET    | [/games](#users-1)                       		| Obtains all the games in the system      |
-| GET    | [/gamesearch/*{id}*](#users-1)           		| Obtains a specific game  with the key    |
-| POST   | [/game/*{id}*/*{id}*/*{id}*/*{id}*](#usersid)    | Add a game in the system                 |
+| Method | Request URI                              											| Description                              |
+|:-------|:-------------------------------------------------------------------------------------|:-----------------------------------------|
+| GET    | [/games](#users-1)                       											| Obtains all the games in the system      |
+| GET    | [/gamesearch/*{game_key}*](#users-1)           										| Obtains a specific game  with the key    |
+| POST   | [/game/*{uploader}*/*{game_name}*/*{game_description}*/*{game_category}*](#usersid)  | Add a game in the system                 |
